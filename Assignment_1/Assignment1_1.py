@@ -1,4 +1,4 @@
-def fun():
+def Fun():     #Fun function defined
     print("Hello from fun")
 
-fun()    
+Fun()    #function call
