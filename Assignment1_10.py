@@ -1,8 +1,6 @@
 print("enter a word: ")
-word = input()
+word = input()    #accepts a user defined input
 
-length = len(word)
+length = len(word)   #len function counts the length of word
 
-print("The length of given word is:", length)
-
-
+print("The length of given word is:", length)  #prints the length of word
