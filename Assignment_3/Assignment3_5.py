@@ -1,8 +1,8 @@
-from MarvellousNum import ChkPrime
+from MarvellousNum import ChkPrime   #chkPrime function imported from MarvellousNum module
 
 def ListPrime():
     print("Enter how many elements :")
-    size = int(input())
+    size = int(input())     
 
     Data = []
     print("Enter the values: ")
@@ -15,10 +15,10 @@ def ListPrime():
     print("Entered elements are:", Data)
 
 
-    sum = 0
+    sum = 0   #sum initialized from 0
     for value in Data:
-        if ChkPrime(value):
-            sum += value
+        if ChkPrime(value):   
+            sum += value    #gives summation of all prime numbers given as input
 
     print("Addition of all prime numbers is:", sum)
 
