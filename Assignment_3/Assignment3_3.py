@@ -16,7 +16,7 @@ def main():
 
     add = 0
     Result = min(Data)  
-    print("Minimum value is: ", Result)
+    print("Minimum value is: ", Result)  #min function is defined to pick out the minimum number from the list
 
 
 if __name__ == "__main__":
