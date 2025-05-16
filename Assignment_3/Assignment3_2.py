@@ -17,7 +17,7 @@ def main():
 
     add = 0
     Result = max(Data)  
-    print("Maximum value is: ", Result)
+    print("Maximum value is: ", Result)   #max function is defined to pick out the maximum number from the list
 
 
 if __name__ == "__main__":
