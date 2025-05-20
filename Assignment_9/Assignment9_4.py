@@ -25,9 +25,6 @@ def Function():          #to calculate the time using normal def function
 def Thread():
     result = [0]
 
-    def Target():       #a nested function is used to define the target
-        result[0] = Add(0)
-
     t = threading.Thread(target=Target)  #thread is initialized
 
     start = time.time()
