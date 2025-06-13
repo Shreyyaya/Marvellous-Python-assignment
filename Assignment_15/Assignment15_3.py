@@ -15,7 +15,7 @@ def main():
     f1 = open(userNamed_file, "w")
     f1.write(content)
     f1.close()
-    print(f"Data written to {userNamed_file}.")
+    print("Data written to: ", userNamed_file)
 
     # Read from source and write to demo
     f1 = open(userNamed_file, "r")
